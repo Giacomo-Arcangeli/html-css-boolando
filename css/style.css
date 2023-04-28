@@ -1,0 +1,63 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* UTILITIES */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.color-w{
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(255,105,0);
+    margin-bottom: 50px;
+}
+
+.navbar{
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+}
+
+.navbar-menu{
+    flex-basis: 20%;
+    border: 2px dashed black;
+}
+
+.navbar-logo{
+    flex-basis: 60%;
+    border: 2px dashed black;
+    text-align: center;
+}
+.logo{
+    max-height: 80px;
+    width: 130px;
+}
+.navbar-action{
+    flex-basis: 20%;
+    border: 2px dashed black;
+}
+
+/* MAIN */
+
+.row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: calc(100% / 3 - 40px);
+    border: 2px dashed black;
+    min-height: 50px;
+}
